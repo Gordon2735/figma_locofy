@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #333;
+}
+
+.header {
+    margin: 2em auto;
+    padding: 0 20px;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 250px;
+    background: hsla(0, 0%, 100%, 0.486);
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 7px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+.header .bracket-logo {
+    margin: 1em 0em 0em 0em;
+    width: 80px;
+    position: relative;
+    display: block;
+    top: 5px;
+    left: 5px;
+}
+
+.header .headerH1-title {
+    margin: 1.2em auto 5.1em auto;
+    padding: 0em;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    width: 10px;
+    display: block;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3.1em;
+    font-weight: 900;
+    color: hsla(90, 100%, 50%, 0.999);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .headerH2-subtitle {
+    margin: 4em auto;
+    padding: .03em;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: hsla(90, 100%, 50%, 0.999);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
